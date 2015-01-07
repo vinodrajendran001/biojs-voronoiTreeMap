@@ -2,27 +2,26 @@
   "name": "biojs-voronoitreemap",
   "description": "reusable Voronoi TreeMap",
   "version": "0.1.0",
-  "homepage": "https://github.com/IriscShih/biojs-voronoitreemap",
+  "homepage": "https://github.com/IriscShih/biojs-voronoiTreeMap",
   "author": {
     "name": "iris.cshih",
     "email": "iris.cshih@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IriscShih/biojs-voronoitreemap.git"
+    "url": "git://github.com/IriscShih/biojs-voronoiTreeMap.git"
   },
   "bugs": {
-    "url": "https://github.com/IriscShih/biojs-voronoitreemap/issues"
+    "url": "https://github.com/IriscShih/biojs-voronoiTreeMap/issues"
   },
   "licenses": [
     {
       "type": "Apache 2",
-      "url": "https://github.com/IriscShih/biojs-voronoitreemap/blob/master/LICENSE"
+      "url": "https://github.com/IriscShih/biojs-voronoiTreeMap/blob/master/LICENSE"
     }
   ],
   "main": "lib/index.js",
   "scripts": {
-	"start": "browserify lib/index.js > build/bundle.js",
     "test": "echo 'Error: no test specified' && exit 1",
     "build": "mkdirp build && browserify -r ./:biojs-voronoitreemap -o build/voronoitreemap.js",
     "build-browser": "npm run build",
@@ -46,12 +45,12 @@
     "snippets": [
       "examples"
     ],
-    "first": "simple",
+    "first": "index",
 	"css": [
 	 "/style.css"
 	]
   },
   "keywords": [
-    "biojs"
+    "biojs","voronoi","treemap"
   ]
 }
