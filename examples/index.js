@@ -15,8 +15,23 @@ var conf1 = {
 
 irisTree.vtreemap(conf1);
 
-var conf3 = {
+var conf2 = {
   json : "../data/test.json",
+  ratio : 1,
+  width : 200,
+  height : 300,
+  sideid : "#sides2",
+  polygonid : "#polygon2",
+  sizeid : "#size2",
+  countid : "#count2",
+  chartid : "#chart2",
+  errorsid : "#errors2"
+}
+
+irisTree.vtreemap(conf2);
+
+var conf3 = {
+  json : "../data/flare.json",
   ratio : 1,
   width : 400,
   height : 300,
