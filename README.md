@@ -63,6 +63,7 @@ And in your index**.html**,
 
 With all the parameters, you have to change them accordingly. Here are the descriptions:
 
+- **"json"** : the **.json** file that you would like to visulaize.
 - **"ratio"** : the ratio of the visualization component.
 - **"width"** : the width of the visualization component.
 - **"height"** : the height of the visualization component. 
