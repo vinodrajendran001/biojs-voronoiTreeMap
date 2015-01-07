@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.29
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/pearl790131/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+13 verbose folder .
+14 info prepublish biojs-voronoitreemap@0.1.0
+15 verbose unsafe-perm in lifecycle true
+16 silly lockFile 1f1177db-tar tar://.
+17 verbose lock tar://. /Users/pearl790131/.npm/1f1177db-tar.lock
+18 silly lockFile 9329d2ff-19534-0-9587677866220474-tmp-tgz tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+19 verbose lock tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz /Users/pearl790131/.npm/9329d2ff-19534-0-9587677866220474-tmp-tgz.lock
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 1f1177db-tar tar://.
+22 silly lockFile 9329d2ff-19534-0-9587677866220474-tmp-tgz tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+23 silly lockFile 9329d2ff-19534-0-9587677866220474-tmp-tgz tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+24 verbose tar unpack /var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+25 silly lockFile 2c9b2df2-ojs-voronoitreemap-0-1-0-package tar:///Users/pearl790131/.npm/biojs-voronoitreemap/0.1.0/package
+26 verbose lock tar:///Users/pearl790131/.npm/biojs-voronoitreemap/0.1.0/package /Users/pearl790131/.npm/2c9b2df2-ojs-voronoitreemap-0-1-0-package.lock
+27 silly lockFile 9329d2ff-19534-0-9587677866220474-tmp-tgz tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+28 verbose lock tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz /Users/pearl790131/.npm/9329d2ff-19534-0-9587677866220474-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry LICENSE
+33 silly gunzTarPerm extractEntry build/voronoitreemap.js
+34 silly gunzTarPerm extractEntry data/flare.json
+35 silly gunzTarPerm extractEntry data/test.json
+36 silly gunzTarPerm extractEntry examples/index.js
+37 silly gunzTarPerm extractEntry examples/index.html
+38 silly gunzTarPerm extractEntry lib/d3.geom.nhull.js
+39 silly gunzTarPerm modified mode [ 'lib/d3.geom.nhull.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry lib/index.js
+41 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry lib/power.js
+43 silly gunzTarPerm modified mode [ 'lib/power.js', 436, 420 ]
+44 silly gunzTarPerm extractEntry lib/treemap.js
+45 silly gunzTarPerm modified mode [ 'lib/treemap.js', 436, 420 ]
+46 silly gunzTarPerm extractEntry style.css
+47 silly lockFile 2c9b2df2-ojs-voronoitreemap-0-1-0-package tar:///Users/pearl790131/.npm/biojs-voronoitreemap/0.1.0/package
+48 silly lockFile 2c9b2df2-ojs-voronoitreemap-0-1-0-package tar:///Users/pearl790131/.npm/biojs-voronoitreemap/0.1.0/package
+49 silly lockFile 9329d2ff-19534-0-9587677866220474-tmp-tgz tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+50 silly lockFile 9329d2ff-19534-0-9587677866220474-tmp-tgz tar:///var/folders/bt/wqp9ll_s6pl5gl7s8lv04q2c0000gn/T/npm-40836-IvVtbrr7/1420651519534-0.9587677866220474/tmp.tgz
+51 silly lockFile 3a52ce78- .
+52 silly lockFile 3a52ce78- .
+53 silly publish { name: 'biojs-voronoitreemap',
+53 silly publish   description: 'reusable Voronoi TreeMap',
+53 silly publish   version: '0.1.0',
+53 silly publish   homepage: 'https://github.com/IriscShih/biojs-voronoiTreeMap',
+53 silly publish   author: { name: 'iris.cshih', email: 'iris.cshih@gmail.com' },
+53 silly publish   repository:
+53 silly publish    { type: 'git',
+53 silly publish      url: 'git://github.com/IriscShih/biojs-voronoiTreeMap.git' },
+53 silly publish   bugs: { url: 'https://github.com/IriscShih/biojs-voronoiTreeMap/issues' },
+53 silly publish   licenses:
+53 silly publish    [ { type: 'Apache 2',
+53 silly publish        url: 'https://github.com/IriscShih/biojs-voronoiTreeMap/blob/master/LICENSE' } ],
+53 silly publish   main: 'lib/index.js',
+53 silly publish   scripts:
+53 silly publish    { test: 'echo \'Error: no test specified\' && exit 1',
+53 silly publish      build: 'mkdirp build && browserify -r ./:biojs-voronoitreemap -o build/voronoitreemap.js',
+53 silly publish      'build-browser': 'npm run build',
+53 silly publish      prepublish: 'npm run build',
+53 silly publish      watch: 'watchify -r ./:biojs-voronoitreemap -v -o build/voronoitreemap.js',
+53 silly publish      sniper: 'biojs-sniper .' },
+53 silly publish   dependencies: { d3: '^3.5.3' },
+53 silly publish   devDependencies:
+53 silly publish    { mkdirp: '^0.5.0',
+53 silly publish      browserify: '6.x',
+53 silly publish      'biojs-sniper': '0.x',
+53 silly publish      watchify: '^1.0.6' },
+53 silly publish   sniper:
+53 silly publish    { js: [ '/build/voronoitreemap.js' ],
+53 silly publish      snippets: [ 'examples' ],
+53 silly publish      first: 'index',
+53 silly publish      css: [ '/style.css' ] },
+53 silly publish   keywords: [ 'biojs', 'voronoi', 'treemap' ],
+53 silly publish   readme: '# biojs-voronoiTreeMap\n\n[![NPM version](http://img.shields.io/npm/v/biojs-voronoitreemap.svg)](https://www.npmjs.org/package/biojs-voronoitreemap) \n\n> reusable Voronoi TreeMap\n\n## Getting Started\nInstall the module with: `npm install biojs-voronoitreemap`\n\n```javascript\nvar voronoitreemap = require(\'biojs-voronoitreemap\');\nvoronoitreemap.hello("biojs"); // "hello biojs"\n```\n\n## Documentation\n\n#### .hello(name)\n\n**Parameter**: `name`\n**Type**: `String`\n**Example**: `biojs`\n\nThe \'hello\' method is responsible for showing a name.\n\nHow to use this method\n\n```javascript\nvoronoitreemap.hello(\'biojs\'); // "hello biojs"\n```\n\n## Contributing\n\nAll contributions are welcome.\n\n## Support\n\nIf you have any problem or suggestion please open an issue [here](https://github.com/IriscShih/biojs-voronoitreemap/issues).\n\n## License \nThis software is licensed under the Apache 2 license, quoted below.\n\nCopyright (c) 2015, iris.cshih\n\nLicensed under the Apache License, Version 2.0 (the "License"); you may not\nuse this file except in compliance with the License. You may obtain a copy of\nthe License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS, WITHOUT\nWARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the\nLicense for the specific language governing permissions and limitations under\nthe License.\n',
+53 silly publish   readmeFilename: 'README.md',
+53 silly publish   _id: 'biojs-voronoitreemap@0.1.0',
+53 silly publish   _shasum: '2021ecb0754e4af75247b2140a554ea8afa22486',
+53 silly publish   _from: '.' }
+54 verbose url raw biojs-voronoitreemap
+55 verbose url resolving [ 'https://registry.npmjs.org/', './biojs-voronoitreemap' ]
+56 verbose url resolved https://registry.npmjs.org/biojs-voronoitreemap
+57 info trying registry request attempt 1 at 18:25:21
+58 http PUT https://registry.npmjs.org/biojs-voronoitreemap
+59 http 403 https://registry.npmjs.org/biojs-voronoitreemap
+60 verbose headers { date: 'Wed, 07 Jan 2015 17:25:22 GMT',
+60 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 verbose headers   'content-type': 'application/json',
+60 verbose headers   'cache-control': 'max-age=60',
+60 verbose headers   'content-length': '5312',
+60 verbose headers   'accept-ranges': 'bytes',
+60 verbose headers   via: '1.1 varnish',
+60 verbose headers   'x-served-by': 'cache-fra1228-FRA',
+60 verbose headers   'x-cache': 'MISS',
+60 verbose headers   'x-cache-hits': '0',
+60 verbose headers   'x-timer': 'S1420651521.211745,VS0,VE1341',
+60 verbose headers   'keep-alive': 'timeout=10, max=50',
+60 verbose headers   connection: 'Keep-Alive' }
+61 error publish Failed PUT 403
+62 error Error: forbidden cannot modify pre-existing version: 0.1.0
+62 error old={"name":"biojs-voronoitreemap","description":"reusable Voronoi TreeMap","version":"0.1.0","homepage":"https://github.com/IriscShih/biojs-voronoiTreeMap","author":{"name":"iris.cshih","email":"iris.cshih@gmail.com"},"repository":{"type":"git","url":"git://github.com/IriscShih/biojs-voronoiTreeMap.git"},"bugs":{"url":"https://github.com/IriscShih/biojs-voronoiTreeMap/issues"},"licenses":[{"type":"Apache 2","url":"https://github.com/IriscShih/biojs-voronoiTreeMap/blob/master/LICENSE"}],"main":"lib/index.js","scripts":{"test":"echo 'Error: no test specified' && exit 1","build":"mkdirp build && browserify -r ./:biojs-voronoitreemap -o build/voronoitreemap.js","build-browser":"npm run build","prepublish":"npm run build","watch":"watchify -r ./:biojs-voronoitreemap -v -o build/voronoitreemap.js","sniper":"biojs-sniper ."},"dependencies":{"d3":"^3.5.3"},"devDependencies":{"mkdirp":"^0.5.0","browserify":"6.x","biojs-sniper":"0.x","watchify":"^1.0.6"},"sniper":{"js":["/build/voronoitreemap.js"],"snippets":["examples"],"first":"index","css":["/style.css"]},"keywords":["biojs","voronoi","treemap"],"_id":"biojs-voronoitreemap@0.1.0","_shasum":"2574cb8f58afc7c27441f36272de2b3ae2bebcb8","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"iriscshih","email":"iris.cshih@gmail.com"},"maintainers":[{"name":"iriscshih","email":"iris.cshih@gmail.com"}],"dist":{"shasum":"2574cb8f58afc7c27441f36272de2b3ae2bebcb8","tarball":"http://registry.npmjs.org/biojs-voronoitreemap/-/biojs-voronoitreemap-0.1.0.tgz"}}
+62 error new={"name":"biojs-voronoitreemap","description":"reusable Voronoi TreeMap","version":"0.1.0","homepage":"https://github.com/IriscShih/biojs-voronoiTreeMap","author":{"name":"iris.cshih","email":"iris.cshih@gmail.com"},"repository":{"type":"git","url":"git://github.com/IriscShih/biojs-voronoiTreeMap.git"},"bugs":{"url":"https://github.com/IriscShih/biojs-voronoiTreeMap/issues"},"licenses":[{"type":"Apache 2","url":"https://github.com/IriscShih/biojs-voronoiTreeMap/blob/master/LICENSE"}],"main":"lib/index.js","scripts":{"test":"echo 'Error: no test specified' && exit 1","build":"mkdirp build && browserify -r ./:biojs-voronoitreemap -o build/voronoitreemap.js","build-browser":"npm run build","prepublish":"npm run build","watch":"watchify -r ./:biojs-voronoitreemap -v -o build/voronoitreemap.js","sniper":"biojs-sniper ."},"dependencies":{"d3":"^3.5.3"},"devDependencies":{"mkdirp":"^0.5.0","browserify":"6.x","biojs-sniper":"0.x","watchify":"^1.0.6"},"sniper":{"js":["/build/voronoitreemap.js"],"snippets":["examples"],"first":"index","css":["/style.css"]},"keywords":["biojs","voronoi","treemap"],"readme":"# biojs-voronoiTreeMap\u000a\u000a[![NPM version](http://img.shields.io/npm/v/biojs-voronoitreemap.svg)](https://www.npmjs.org/package/biojs-voronoitreemap) \u000a\u000a> reusable Voronoi TreeMap\u000a\u000a## Getting Started\u000aInstall the module with: `npm install biojs-voronoitreemap`\u000a\u000a```javascript\u000avar voronoitreemap = require('biojs-voronoitreemap');\u000avoronoitreemap.hello(\"biojs\"); // \"hello biojs\"\u000a```\u000a\u000a## Documentation\u000a\u000a#### .hello(name)\u000a\u000a**Parameter**: `name`\u000a**Type**: `String`\u000a**Example**: `biojs`\u000a\u000aThe 'hello' method is responsible for showing a name.\u000a\u000aHow to use this method\u000a\u000a```javascript\u000avoronoitreemap.hello('biojs'); // \"hello biojs\"\u000a```\u000a\u000a## Contributing\u000a\u000aAll contributions are welcome.\u000a\u000a## Support\u000a\u000aIf you have any problem or suggestion please open an issue [here](https://github.com/IriscShih/biojs-voronoitreemap/issues).\u000a\u000a## License \u000aThis software is licensed under the Apache 2 license, quoted below.\u000a\u000aCopyright (c) 2015, iris.cshih\u000a\u000aLicensed under the Apache License, Version 2.0 (the \"License\"); you may not\u000ause this file except in compliance with the License. You may obtain a copy of\u000athe License at\u000a\u000a    http://www.apache.org/licenses/LICENSE-2.0\u000a\u000aUnless required by applicable law or agreed to in writing, software\u000adistributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT\u000aWARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the\u000aLicense for the specific language governing permissions and limitations under\u000athe License.\u000a","readmeFilename":"README.md","_id":"biojs-voronoitreemap@0.1.0","_shasum":"2021ecb0754e4af75247b2140a554ea8afa22486","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"iriscshih","email":"iris.cshih@gmail.com"},"maintainers":[{"name":"iriscshih","email":"iris.cshih@gmail.com"}],"dist":{"shasum":"2021ecb0754e4af75247b2140a554ea8afa22486","tarball":"http://registry.npmjs.org/biojs-voronoitreemap/-/biojs-voronoitreemap-0.1.0.tgz"}}: biojs-voronoitreemap
+62 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+62 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+62 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+62 error     at Request.emit (events.js:98:17)
+62 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+62 error     at Request.emit (events.js:117:20)
+62 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+62 error     at IncomingMessage.emit (events.js:117:20)
+62 error     at _stream_readable.js:929:16
+62 error     at process._tickCallback (node.js:419:13)
+63 error If you need help, you may report this *entire* log,
+63 error including the npm and node versions, at:
+63 error     <http://github.com/npm/npm/issues>
+64 error System Darwin 13.4.0
+65 error command "node" "/usr/local/bin/npm" "publish"
+66 error cwd /Users/pearl790131/Desktop/biojs-voronoiTreeMap
+67 error node -v v0.10.29
+68 error npm -v 1.4.9
+69 verbose exit [ 1, true ]
