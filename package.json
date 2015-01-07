@@ -1,0 +1,57 @@
+{
+  "name": "biojs-voronoitreemap",
+  "description": "reusable Voronoi TreeMap",
+  "version": "0.1.0",
+  "homepage": "https://github.com/IriscShih/biojs-voronoitreemap",
+  "author": {
+    "name": "iris.cshih",
+    "email": "iris.cshih@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IriscShih/biojs-voronoitreemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IriscShih/biojs-voronoitreemap/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2",
+      "url": "https://github.com/IriscShih/biojs-voronoitreemap/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+	"start": "browserify lib/index.js > build/bundle.js",
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "mkdirp build && browserify -r ./:biojs-voronoitreemap -o build/voronoitreemap.js",
+    "build-browser": "npm run build",
+    "prepublish": "npm run build",
+    "watch": "watchify -r ./:biojs-voronoitreemap -v -o build/voronoitreemap.js",
+    "sniper": "biojs-sniper ."
+  },
+  "dependencies": {
+    "d3": "^3.5.3"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.0",
+    "browserify": "6.x",
+    "biojs-sniper": "0.x",
+    "watchify": "^1.0.6"
+  },
+  "sniper": {
+    "js": [
+      "/build/voronoitreemap.js"
+    ],
+    "snippets": [
+      "examples"
+    ],
+    "first": "simple",
+	"css": [
+	 "/style.css"
+	]
+  },
+  "keywords": [
+    "biojs"
+  ]
+}

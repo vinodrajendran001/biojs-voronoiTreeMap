@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Voronoi Treemaps</title>
+<style>
+@import url(./style.css);
+path {
+  fill: none;
+  stroke: #858585;
+  pointer-events: all;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+#polygon svg {
+  vertical-align: middle;
+}
+.stats {
+  font-family: monospace;
+}
+#errors1 text {
+  font: 10px sans-serif;
+}
+#errors1 path, #errors1 line {
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+#errors1 rect {
+  fill: #666;
+}
+/*#errors2 text {
+  font: 10px sans-serif;
+}
+#errors2 path, #errors2 line {
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+#errors2 rect {
+  fill: #666;
+}*/
+#errors3 text {
+  font: 10px sans-serif;
+}
+#errors3 path, #errors3 line {
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+#errors3 rect {
+  fill: #666;
+}
+</style>
+
+
+<h1>BioJS Voronoi Treemap</h1>
+<div id="chart1"></div>
+<aside id="errors1"></aside>
+<div style="margin: 1em 0; font-style: italic; font-size: small">
+  File of the <a href="http://biojs.net/">flare.json</a> by 
+  <label for="size"><input id="size1" type="radio" name="treemap-value" checked> size</label> or
+  <label for="count"><input id="count1" type="radio" name="treemap-value"> count</label>, by subdividing a polygon
+  <span id="polygon1"></span>
+  <input id="sides1" type="range" min="3" max="13" value="13">.
+</div>
+<br>
+
+<!-- <div id="chart2"></div>
+<aside id="errors2"></aside>
+<div style="margin: 1em 0; font-style: italic; font-size: small">
+  File of the <a href="http://biojs.net/">flare.json</a> by
+  <label for="size"><input id="size2" type="radio" name="treemap-value" checked> size</label> or
+  <label for="count"><input id="count2" type="radio" name="treemap-value"> count</label>, by subdividing a polygon
+  <span id="polygon2"></span>
+  <input id="sides2" type="range" min="4" max="13" value="13">.
+</div>
+<br> -->
+
+<div id="chart3"></div>
+<aside id="errors3"></aside>
+<div style="margin: 1em 0; font-style: italic; font-size: small">
+  File of the <a href="http://biojs.net/">test.json</a> by
+  <label for="size"><input id="size3" type="radio" name="treemap-value" checked> size</label> or
+  <label for="count"><input id="count3" type="radio" name="treemap-value"> count</label>, by subdividing a polygon
+  <span id="polygon3"></span>
+  <input id="sides3" type="range" min="4" max="13" value="13">. 
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+
