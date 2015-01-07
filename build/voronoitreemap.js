@@ -9966,11 +9966,11 @@ require("./d3.geom.nhull");
 require("./treemap");
 require("./power");
 
-var irisTree = {};
+var voronoiTree = {};
 
 var format = d3.format(".4f");
 
-irisTree.vtreemap = function(conf) {
+voronoiTree.vtreemap = function(conf) {
 
   var listOfNodes;
 
@@ -10208,7 +10208,7 @@ function polygonArea(polygon) {
   return .5 * area;
 }
 
-module.exports = irisTree;
+module.exports = voronoiTree;
 
 
 },{"./d3.geom.nhull":1,"./power":2,"./treemap":3}]},{},[]);
